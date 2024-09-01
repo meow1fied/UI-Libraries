@@ -839,8 +839,10 @@ local window = library:Window({name = "<font color=\"#AA55EB\">Obelus</font> | D
 local d = window:Page({Name = "Documentation"})
 local s = window:Page{Name = "Settings"}
 -- [[ Sections ]] -- 
-local Functions = d:Section({Name = "Functions", size = 225})
+local Functions = d:Section({Name = "Functions", size = 200})
 local Functions2 = d:Section({Name = "Functions", Side = "Right"})
+local ThemeManager = s:Section({Name= " Themes", Side = "Left"})
+local Configs = s:Section({Name= "Configs", Side = "Right"})
 
 -- [[ Elements ]] --
 local Label = Functions:Label({Name = "This is a label."})
@@ -849,5 +851,6 @@ local Toggle = Functions:Toggle({Name = "Toggle", Default = false, Callback = fu
 local AnotherToggle = Functions:Toggle({Name = "Another toggle", Default = true, Callback = function(val) warn(val) end})
 local Button = Functions:Button({Name = "random button", Callback = function() warn("Button Clicked") end})
 local slider = Functions:Slider({Default = 10, Minimum = -10, Maximum = 30, Decimals = 1, Suffix = "Units", Callback = function(val) warn(val) end})
+
 
 return library, utility, obelus
