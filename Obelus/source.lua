@@ -85,7 +85,7 @@ do
 			BorderSizePixel = 1,
 			Parent = screen,
 			Position = UDim2.new(0.5, 0, 0.5, 0),
-			Size = UDim2.new(0, 350, 0, 650)
+			Size = UDim2.new(0, 350, 0, 350)
 		}})
 		--
 		local frame = utility:Create({Type = "Frame", Properties = {
