@@ -94,7 +94,7 @@ do
 			BorderSizePixel = 0,
 			Parent = main,
 			Position = UDim2.new(0.5, 0, 0.5, 0),
-			Size = UDim2.new(1, -2, 1, -2),
+			Size = UDim2.new(4, -2, 4, -2),
 		}})
 
 		--
