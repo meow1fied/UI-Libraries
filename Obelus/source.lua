@@ -85,7 +85,7 @@ do
 			BorderSizePixel = 1,
 			Parent = screen,
 			Position = UDim2.new(0.5, 0, 0.5, 0),
-			Size = UDim2.new(0, 500, 0, 550)
+			Size = UDim2.new(0, 516, 0, 563)
 		}})
 		--
 		local frame = utility:Create({Type = "Frame", Properties = {
@@ -831,4 +831,5 @@ do
 		return window
 	end
 end
+-- // Returning
 return library, utility, obelus
